@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataStructures\1_Array\CustomInterfaces\ICustomList.cs" />
+    <Compile Include="DataStructures\1_Array\CustomList.cs" />
     <Compile Include="DataStructures\BinarySearchTree.cs" />
+    <Compile Include="DataStructures\3_HashTables\CustomSortedList.cs" />
     <Compile Include="SearchAlgorithms\BinarySearch.cs" />
     <Compile Include="SortAlgorithms\InsertionSort.cs" />
     <Compile Include="Program.cs" />
@@ -52,6 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStructures\2_LinkedList\" />
+    <Folder Include="DataStructures\4_Queue\" />
+    <Folder Include="DataStructures\5_Stack\" />
+    <Folder Include="DataStructures\6_Tree\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
